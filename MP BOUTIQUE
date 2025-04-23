@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MP Boutique</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background-color: #fff8f0; }
+    header { background-color: #b30000; color: white; padding: 1em; text-align: center; }
+    nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: bold; }
+    .logo { height: 60px; }
+    .section { padding: 2em; text-align: center; }
+    .products { display: flex; justify-content: center; flex-wrap: wrap; gap: 2em; }
+    .product { border: 1px solid #ccc; padding: 1em; width: 200px; border-radius: 10px; background: white; }
+    .product img { width: 100%; height: auto; border-radius: 8px; }
+    footer { background-color: #b30000; color: white; text-align: center; padding: 1em; margin-top: 2em; }
+    button { background-color: #b30000; color: white; padding: 0.5em 1em; border: none; border-radius: 5px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="LOGO_PLACEHOLDER" alt="MP Boutique Logo" class="logo" />
+    <h1>MP Boutique</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#shop">Shop</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </header>  <section class="section" id="home">
+    <h2>Welcome to MP Boutique</h2>
+    <p>Discover the elegance of handpicked sarees curated for every occasion.</p>
+  </section>  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>Located in Kandhankolai, Sevvapet, MP Boutique offers a beautiful variety of sarees tailored for tradition and style. Call us at 7550244219 for more!</p>
+  </section>  <section class="section" id="shop">
+    <h2>Shop Our Collection</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/200x250" alt="Saree 1" />
+        <h3>Elegant Silk Saree</h3>
+        <p>₹1200</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x250" alt="Saree 2" />
+        <h3>Casual Cotton Saree</h3>
+        <p>₹750</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x250" alt="Saree 3" />
+        <h3>Designer Party Saree</h3>
+        <p>₹1850</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </section>  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>MP Boutique<br />Kandhankolai, Sevvapet<br />Phone: 7550244219</p>
+  </section>  <footer>
+    <p>&copy; 2025 MP Boutique. All rights reserved.</p>
+  </footer>
+</body>
+</html>
